@@ -1,0 +1,136 @@
+{
+    "Supermercados": [
+     {
+         "Supermercado 1": [
+             {
+                 "Nombre": "Mercadona",
+                 "Dirección": "C. Pérez de Ayala, 46, 33208 Gijón, Asturias",
+                 "Horario": "Lunes a Sabado de 9:00 a 21:30",
+                 "Telefono": 985163687
+             },
+             {
+                 "Sección": "Frutería",
+                 "Productos": [
+                     {
+                         "nombre": "Tomate pera",
+                         "Precio/kg": 1.45,
+                         "formato": "por peso",
+                         "habitual": true,
+                         "adquirido": true,
+                         "oferta": false
+
+                     },
+                     {
+                         "nombre": "Manzana Granny Smith",
+                         "Precio/kg": 2.24,
+                         "formato": "por peso",
+                         "habitual": true,
+                         "adquirido": true,
+                         "oferta": false
+                     },
+                     {
+                         "nombre": "Aguacate",
+                         "Precio/kg": 4.98,
+                         "formato": "por peso",
+                         "habitual": false,
+                         "adquirido": false,
+                         "oferta": false
+
+                     }
+                 ]
+             },
+             {
+                 "Sección": "Charcutería",
+                 "Productos": [
+                     {
+                         "nombre": "Pechuga de pavo Hacendado",
+                         "Precio": 3.25,
+                         "Peso en gramos": 400,
+                         "habitual": true,
+                         "adquirido": true,
+                         "oferta": false
+                     },
+                     {
+                        "nombre": "Salchicha de pavo Hacendado",
+                        "Precio": 2.80,
+                        "Peso en gramos": 176,
+                        "habitual": false,
+                        "adquirido": true,
+                        "oferta": true,
+                        "vigenciaOferta": [
+                            "06/03/23",
+                            "16/04/23"
+                          ],
+                        "precioOferta": 2.45
+                     }
+                 ]
+             }
+         ]
+     },
+     {
+         "Supermercado 2": [
+             {
+                 "Nombre": "Alimerka",
+                 "Dirección": "C. Guipúzcoa, 2, 33210 Gijón, Asturias",
+                 "Horario": "Lunes a Sabado de 9:00 a 21:30",
+                 "Telefono": 984849193
+             },
+             {
+                 "Sección": "Carniceria",
+                 "Productos": [
+                     {
+                         "nombre": "Ternera Asturiana",
+                         "Precio/kg": 8.95,
+                         "formato": "por peso",
+                         "habitual": true,
+                         "adquirido": true,
+                         "oferta": false
+                     },
+                     {
+                        "nombre": "Filetes de pechuga de pollo",
+                        "Precio/kg": 6.20,
+                        "formato": "por peso",
+                        "habitual": true,
+                        "adquirido": true,
+                        "oferta": false
+                     },
+                     {
+                         "nombre": "Carne molida 60/40",
+                         "Precio/kg": 5.99,
+                         "formato": "por peso",
+                         "habitual": true,
+                         "adquirido": true,
+                         "oferta": false
+                     }
+                 ]
+             },
+             {
+                 "Sección": "Lacteos",
+                 "Productos": [
+                     {
+                         "nombre": "Yogurt griego Alimerka",
+                         "precio": 1.95,
+                         "formato": "pack de 6 x 125 grs.",
+                         "habitual": true,
+                         "adquirido": true,
+                         "oferta": true,
+                         "vigenciaOferta": [
+                             "05/04/23",
+                             "15/04/23"
+                           ],
+                         "precioOferta": 1.65
+                     },
+                     {
+                        "nombre": "Leche de soja Alpro",
+                        "precio": 1.79,
+                        "formato": "1 litro",
+                        "habitual": true,
+                        "adquirido": false,
+                        "oferta": false
+                     }
+                 ]
+             }
+         ]
+     }
+   ]
+ }

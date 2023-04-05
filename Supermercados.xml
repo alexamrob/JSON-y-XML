@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <Supermercados>
+    <Supermercado_1>
+      <Nombre>Mercadona</Nombre>
+      <Dirección>C. Pérez de Ayala, 46, 33208 Gijón, Asturias</Dirección>
+      <Horario>Lunes a Sabado de 9:00 a 21:30</Horario>
+      <Telefono>985163687</Telefono>
+    </Supermercado_1>
+
+    <Supermercado_1>
+      <Sección>Frutería</Sección>
+
+      <Productos>
+        <nombre>Tomate pera</nombre>
+        <Precio/kg>1.45</Precio/kg>
+        <formato>por peso</formato>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+        <oferta>false</oferta>
+      </Productos>
+
+      <Productos>
+        <nombre>Manzana Granny Smith</nombre>
+        <Precio/kg>2.24</Precio/kg>
+        <formato>por peso</formato>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+        <oferta>false</oferta>
+      </Productos>
+
+      <Productos>
+        <nombre>Aguacate</nombre>
+        <Precio/kg>4.98</Precio/kg>
+        <formato>por peso</formato>
+        <habitual>false</habitual>
+        <adquirido>false</adquirido>
+        <oferta>false</oferta>
+      </Productos>
+    </Supermercado_1>
+
+    <Supermercado_1>
+      <Sección>Charcutería</Sección>
+
+      <Productos>
+        <nombre>Pechuga de pavo Hacendado</nombre>
+        <Precio>3.25</Precio>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+        <oferta>false</oferta>
+        <Peso_en_gramos>400</Peso_en_gramos>
+      </Productos>
+
+      <Productos>
+        <nombre>Salchicha de pavo Hacendado</nombre>
+        <Precio>2.8</Precio>
+        <habitual>false</habitual>
+        <adquirido>true</adquirido>
+        <oferta>true</oferta>
+        <vigenciaOferta>06/03/23</vigenciaOferta>
+        <vigenciaOferta>16/04/23</vigenciaOferta>
+        <precioOferta>2.45</precioOferta>
+        <Peso_en_gramos>176</Peso_en_gramos>
+      </Productos>
+    </Supermercado_1>
+  </Supermercados>
+
+  <Supermercados>
+    <Supermercado_2>
+      <Nombre>Alimerka</Nombre>
+      <Dirección>C. Guipúzcoa, 2, 33210 Gijón, Asturias</Dirección>
+      <Horario>Lunes a Sabado de 9:00 a 21:30</Horario>
+      <Telefono>984849193</Telefono>
+    </Supermercado_2>
+
+    <Supermercado_2>
+      <Sección>Carniceria</Sección>
+
+      <Productos>
+        <nombre>Ternera Asturiana</nombre>
+        <Precio/kg>8.95</Precio/kg>
+        <formato>por peso</formato>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+        <oferta>false</oferta>
+      </Productos>
+
+      <Productos>
+        <nombre>Filetes de pechuga de pollo</nombre>
+        <Precio/kg>6.2</Precio/kg>
+        <formato>por peso</formato>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+        <oferta>false</oferta>
+      </Productos>
+
+      <Productos>
+        <nombre>Carne molida 60/40</nombre>
+        <Precio/kg>5.99</Precio/kg>
+        <formato>por peso</formato>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+        <oferta>false</oferta>
+      </Productos>
+    </Supermercado_2>
+
+    <Supermercado_2>
+      <Sección>Lacteos</Sección>
+      
+      <Productos>
+        <nombre>Yogurt griego Alimerka</nombre>
+        <precio>1.95</precio>
+        <formato>pack de 6 x 125 grs.</formato>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+        <oferta>true</oferta>
+        <vigenciaOferta>05/04/23</vigenciaOferta>
+        <vigenciaOferta>15/04/23</vigenciaOferta>
+        <precioOferta>1.65</precioOferta>
+      </Productos>
+
+      <Productos>
+        <nombre>Leche de soja Alpro</nombre>
+        <precio>1.79</precio>
+        <formato>1 litro</formato>
+        <habitual>true</habitual>
+        <adquirido>false</adquirido>
+        <oferta>false</oferta>
+      </Productos>
+    </Supermercado_2>
+  </Supermercados>
+</root>
